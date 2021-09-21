@@ -28,5 +28,4 @@ alert(total)
 const eImpar = num => num % 2 == 1
 const eMenor20 = num => num<20
 const resultado = numeros.filter(eImpar).filter(eMenor20).reduce(somaTotal,0)
-
 alert(resultado)
