@@ -23,3 +23,10 @@ reduce(função, 0)*/
 const somaTotal = (a,b) => a+b 
 const total = numeros.reduce(somaTotal, 0)
 alert(total)
+
+//total dos elementos ímpares e pares menores que 20
+const eImpar = num => num % 2 == 1
+const eMenor20 = num => num<20
+const resultado = numeros.filter(eImpar).filter(eMenor20).reduce(somaTotal,0)
+
+alert(resultado)
